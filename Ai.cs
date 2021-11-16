@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace RPSLS
 {
-    class Ai
+    public class Ai:Player
     {
+        public Ai(string gesture)
+        {
+            this.name = "Artificial Intelligence";
+            this.gesture = gesture;
+
+        }
     }
 }

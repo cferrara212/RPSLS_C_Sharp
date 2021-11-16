@@ -6,7 +6,18 @@ using System.Threading.Tasks;
 
 namespace RPSLS
 {
-    class Class1
+    class Human : Player
     {
+
+        public Human(string name, string gesture)
+        {
+            this.name = name;
+            this.gesture = gesture;
+        }
+
+
+           
+            public string newName = Console.ReadLine();
+         
     }
 }

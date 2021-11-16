@@ -6,7 +6,8 @@ namespace RPSLS
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            GameRoom letsPlay = new GameRoom();
+            
         }
     }
 }

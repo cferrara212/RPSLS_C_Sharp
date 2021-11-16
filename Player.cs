@@ -6,7 +6,23 @@ using System.Threading.Tasks;
 
 namespace RPSLS
 {
-    class Player
+   public class Player
     {
+        public string name;
+        public string gesture;
+        public int score;
+
+        public Player()
+        {
+            List<string> gestures = new List<string>();
+            gestures.Add("Rock");
+            gestures.Add("Paper");
+            gestures.Add("Scissors");
+            gestures.Add("Lizard");
+            gestures.Add("Spock");
+        }
+
+        
+
     }
 }
